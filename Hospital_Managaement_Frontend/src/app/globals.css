@@ -1,0 +1,300 @@
+body{
+    font-family: Roboto, sans-serif;
+}
+
+.my-bg-color1{
+background-color: rgb(111, 139, 164) !important;
+}
+
+.my-bg-color2{
+    background-color: rgba(34, 58, 102,0.8) !important;
+}
+
+.top{
+    min-height: 60px;
+    background-color: #223a66;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.banner{
+    min-height: 600px;
+    background: url(/bg/slider-bg-1.jpg);
+    background-size: 100% 100%;
+}
+
+.strip{
+    height: 5px; 
+    width:40px;
+    background-color: #e12454;
+}
+
+.health{
+    color: rgb(111, 139, 164);
+    font-size: 16px;
+}
+
+.banner-heading{
+    font-size: 60px;
+    color:rgb(111, 139, 164);
+}
+.my-color1{
+    color:rgb(111, 139, 164) !important;
+}
+.my-color2{
+    color: #223a66 !important;
+}
+.my-color3{
+    color:#e12454 !important;
+}
+.my-btn-hover:hover{
+    background: #223a66 !important;
+    transition: all 1s;
+}
+
+.my-btn-hover1:hover{
+    background: #e12454 !important;
+    transition: all 1s;
+}
+
+.mybtn-color1{
+    background: #223a66 !important;
+    color:white !important;
+}
+
+.mybtn-color1:hover{
+    background: #e12454 !important;
+    transition: all 1s;
+}
+
+.a{
+    transform: translateY(-50px);
+}
+.b{
+    height: 98%; width: 98%;
+    background-color: yellow;
+}
+.title1{
+    font-size: 18px;
+}
+
+.personal-care
+{
+    text-align: center;
+    position: relative;
+}
+.personal-care .ic{
+position: absolute;
+top:2%; left:39%; 
+font-size: 70px;
+color: rgba(255, 255, 255, 0.2);;
+}
+.personal-care .overlay{
+    background: rgba(43, 66, 108, 1);
+    min-height: 200px;
+    padding: 60px 0px 40px 0px;
+    z-index: 100;
+    color: white;
+
+}
+.overlay span{
+    font-size: 70px;
+    font-weight:700;
+}
+
+.overlay p{
+    color:rgba(255, 255, 255, 0.7);
+    font-size: 18px;
+}
+
+.wrapper-ic-container{
+    font-size: 50px;
+    color: #e12454;
+}
+
+.icon-container .icon{
+    height: 40px;
+    width: 40px;
+    background-color: rgb(111, 139, 164);
+    color: white;
+    line-height: 35px;
+    text-align: center;
+    border-radius: 50%;  
+}
+
+.nav-link-hover:hover{
+    color: #e12454 !important;
+}
+
+.booking-img{
+    position: relative;
+    height: 90%; width:90%;
+}
+/* .booking-img img{
+    height: 95%;
+} */
+
+.booking-div{
+    position: absolute;
+    top: 79%;
+    background-color: rgba(43, 66, 108, 1);
+    width: 110%;
+    color: white;
+    font-size: 55px;
+}
+
+.my-height{
+    height: 60px !important;
+    font-size: 18px !important;
+}
+
+.feed-wrap-img{
+    height: 100px;
+    width: 100px;
+}
+.feed-wrap-img img{
+    height: 100%;
+    width: 100%;
+}
+
+.feed-icon-container
+{
+    position: absolute;
+    color: rgba(225, 36, 84, 0.4);
+    font-size: 85px;
+    top: 73%;
+    right: 10%;
+}
+
+.subs{
+    height: 70px;
+    position: relative;
+}
+.subs input{
+    height: 100% !important;
+}
+.subs button{
+    position: absolute;
+    right: 6px;
+    top: 6px;
+}
+
+.login-row{
+    min-height: 60vh !important;
+}
+
+.login-row .col-md-4{
+    
+    min-height: 100px !important;
+    backdrop-filter: blur(3px);
+   
+}
+
+.myform-control{
+    background-color: transparent !important ;
+    border: none !important;
+    border-bottom: 1px solid white !important ;
+    color:white;
+   
+}
+.t{
+    color: black !important;
+}
+
+ 
+
+.myform-select{
+    background:transparent !important;border:none !important;border-bottom:1px solid white !important;
+}
+.awp{
+    font-size:18px;line-height:33px
+}
+
+.ser{
+    min-height:100%; width:95% 
+}
+
+.dashboard-right-container, .dashboard-left-container
+{
+ height: 100vh;
+ transition: all .5s ease;
+}
+
+.right-bottom .col-lg-12, .left-bottom{
+    height:92vh;
+    overflow-y:auto
+}
+
+.left-top, .right-top{
+    height: 8vh;
+}
+.left-bottom{
+  
+    background-color: #413f40;
+}
+.hamburger-style{
+    height: 45px; width:45px;
+    line-height: 0px !important;
+    font-size: 21px !important;
+}
+
+.left-bottom ul li{
+    font-size: 17px;
+    line-height: 20px;
+}
+
+.left-bottom ul li:hover{
+    background-color: black ;
+    color: white;
+}
+.side li:hover{
+    background-color: black !important;
+    color: white !important;
+    transition: all .5s;
+}
+
+.my-span{
+    background-color: #223a66;
+    border-radius: 50%;
+    text-align: center;
+    height: 45px !important;
+    width: 45px;
+    line-height: 35px;
+    transition: all .6s;
+}
+
+.icon-container1 .s{
+height: 35px; width: 35px;
+line-height: 30px;
+font-size: 20px;
+}
+
+.icon-container1 .s:hover{
+    background-color: white;
+    color: black;
+    }
+
+    .department
+    {
+        background-color: white;
+    }
+    
+    .btnhover:hover{
+        background-color: #3949AB !important;
+    }
+    .thead{
+        background-color: #1A237E !important;
+    }
+
+    .apointment
+{
+  background: #223a66 !important;
+}
+.button
+{
+  margin-left:300px !important;
+}
+
+::placeholder{
+    color:white
+}
